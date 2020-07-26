@@ -35,7 +35,7 @@ def trecv():
             if msg['result'] != []:
                 clearBuffer(msg)
                 break
-        return msg['result'][0]['message']['from']['id'], msg['result'][0]['message']['text'].lowe
+        return msg['result'][0]['message']['from']['id'], msg['result'][0]['message']['text'].lower()
     except:
         return False
     
