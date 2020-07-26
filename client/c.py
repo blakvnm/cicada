@@ -8,7 +8,7 @@ import socket
 import subprocess as sp
 
 host = '0.tcp.ngrok.io'
-port = 17504
+port = 16884
 headerLength = 100
 # os.system('clear')
 
